@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: whitesmoke;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next row */
+  gap: 5px; /* Spacing between cards */
 }
